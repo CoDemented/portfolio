@@ -1,0 +1,33 @@
+// ------------ Theme Colors
+$cp: #fff;
+$cpHover: #fff;
+$cs: #fff;
+$csHover: #fff;
+$ct: #fff;
+$ctHover: #fff;
+// ------------ Theme Colors
+
+
+$fontPrimary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$fontSize: 62.5%;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: $fontPrimary;
+    font-size: $fontSize;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-fs {
+    max-width: 100%;
+}
