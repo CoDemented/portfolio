@@ -1,2 +1,27 @@
 @import "config.scss";
+@import "nav.scss";
 
+.hero {
+    background: url(../imgs/codeBgCanvas.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    .hero-text-box {
+        padding: 300px 0;
+    }
+}
+
+.typer {
+    font-family: $font1;
+    // font-family: 'Viga', sans-serif;
+    // font-family: 'Staatliches', cursive;
+    // font-family: 'Audiowide', cursive;
+    text-shadow: 0 0 5px #000000;
+    font-weight: 100;
+
+    span {
+        color: $cp;
+        text-shadow: 0 0 5px #000000;
+        text-transform: initial;
+    }
+}
